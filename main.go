@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/kaungmyathan22/golang-leetcode/problems"
 )
 
 func main() {
@@ -15,9 +13,12 @@ func main() {
 	// fmt.Println(problems.TotalMoney(4))
 	// fmt.Println(problems.TotalMoney(10))
 	// fmt.Println(problems.TotalMoney(20))
-	fmt.Println(problems.LargestOddNumber("52"))
-	fmt.Println(problems.LargestOddNumber("4206"))
-	fmt.Println(problems.LargestOddNumber("35427"))
-	fmt.Println(problems.LargestOddNumber("10133890"))
-	fmt.Println(problems.LargestOddNumber("239537672423884969653287101"))
+	// fmt.Println(problems.LargestOddNumber("52"))
+	// fmt.Println(problems.LargestOddNumber("4206"))
+	// fmt.Println(problems.LargestOddNumber("35427"))
+	// fmt.Println(problems.LargestOddNumber("10133890"))
+	// fmt.Println(problems.LargestOddNumber("239537672423884969653287101"))
+	fmt.Println(findWords([]string{"Hello", "Alaska", "Dad", "Peace"}))
+	fmt.Println(findWords([]string{"omk"}))
+	fmt.Println(findWords([]string{"adsdf", "sfd"}))
 }
