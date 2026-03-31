@@ -18,7 +18,9 @@ func main() {
 	// fmt.Println(problems.LargestOddNumber("35427"))
 	// fmt.Println(problems.LargestOddNumber("10133890"))
 	// fmt.Println(problems.LargestOddNumber("239537672423884969653287101"))
-	fmt.Println(findWords([]string{"Hello", "Alaska", "Dad", "Peace"}))
-	fmt.Println(findWords([]string{"omk"}))
-	fmt.Println(findWords([]string{"adsdf", "sfd"}))
+	// fmt.Println(findWords([]string{"Hello", "Alaska", "Dad", "Peace"}))
+	// fmt.Println(findWords([]string{"omk"}))
+	// fmt.Println(findWords([]string{"adsdf", "sfd"}))
+	fmt.Println(binaryTreePaths(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 5}}, Right: &TreeNode{Val: 3}}))
+	fmt.Println(binaryTreePaths(&TreeNode{Val: 1, Left: nil, Right: nil}))
 }
