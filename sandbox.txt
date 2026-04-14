@@ -1,8 +1,7 @@
-func isSameTree(p *TreeNode, q *TreeNode) bool {
-    if q.Val != p.Val {
-        return false
+
+func isSymmetric(root *TreeNode) bool {
+    if root.Left != nil || root.Right != nil {
+        return root.Left.Val === && root.Right.Val
     }
-    isLeftSame := isSameTree(p.Left, p.Left)
-    isRightSame := isSameTree(p.Right, p.Right)
-	return isLeftSame && isRightSame
+    isSymmetric(root.Left.)
 }
