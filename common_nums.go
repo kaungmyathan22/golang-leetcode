@@ -1,3 +1,5 @@
+package main
+
 func intersect(nums1 []int, nums2 []int) []int {
 	freqMap := map[int]int{}
 	result := []int{}

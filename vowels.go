@@ -1,3 +1,5 @@
+package main
+
 func reverseVowels(s string) string {
 	vowelSet := map[byte]bool{
 		'a': true, 'e': true, 'i': true, 'o': true, 'u': true,
@@ -6,7 +8,6 @@ func reverseVowels(s string) string {
 	left := 0
 	right := len(s)
 	b := []byte(s)
-	var err error
 	for left < right {
 		for left < right && !vowelSet[s[left]] {
 			left++

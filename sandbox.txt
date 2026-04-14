@@ -1,0 +1,16 @@
+func inorderTraversal(root *TreeNode) []int {
+	result := []int{}
+    for {
+
+    }
+	// your logic here
+	return result
+}
+
+func nodeToSlice(root *TreeNode) []int {
+    arr := []int{}
+    if(root.Left.Val) {
+        arr = append(arr,root.Left.Val)
+    } if
+    return []int{}
+}

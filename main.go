@@ -21,6 +21,9 @@ func main() {
 	// fmt.Println(findWords([]string{"Hello", "Alaska", "Dad", "Peace"}))
 	// fmt.Println(findWords([]string{"omk"}))
 	// fmt.Println(findWords([]string{"adsdf", "sfd"}))
-	fmt.Println(binaryTreePaths(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 5}}, Right: &TreeNode{Val: 3}}))
-	fmt.Println(binaryTreePaths(&TreeNode{Val: 1, Left: nil, Right: nil}))
+	// fmt.Println(binaryTreePaths(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 5}}, Right: &TreeNode{Val: 3}}))
+	// fmt.Println(binaryTreePaths(&TreeNode{Val: 1, Left: nil, Right: nil}))
+	fmt.Println(InorderTraversal(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 5}}, Right: &TreeNode{Val: 3}}))
+	fmt.Println(InorderTraversal(&TreeNode{Val: 1, Left: nil, Right: &TreeNode{Val: 2, Left: &TreeNode{Val: 3}}}))
+	fmt.Println(InorderTraversal(&TreeNode{Val: 1, Left: nil, Right: nil}))
 }
