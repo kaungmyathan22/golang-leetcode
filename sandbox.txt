@@ -1,16 +1,8 @@
-func inorderTraversal(root *TreeNode) []int {
-	result := []int{}
-    for {
-
+func isSameTree(p *TreeNode, q *TreeNode) bool {
+    if q.Val != p.Val {
+        return false
     }
-	// your logic here
-	return result
-}
-
-func nodeToSlice(root *TreeNode) []int {
-    arr := []int{}
-    if(root.Left.Val) {
-        arr = append(arr,root.Left.Val)
-    } if
-    return []int{}
+    isLeftSame := isSameTree(p.Left, p.Left)
+    isRightSame := isSameTree(p.Right, p.Right)
+	return isLeftSame && isRightSame
 }
