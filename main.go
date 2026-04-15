@@ -26,6 +26,11 @@ func main() {
 	// fmt.Println(InorderTraversal(&TreeNode{Val: 1, Left: nil, Right: nil}))
 	// fmt.Println(isSameTree(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 5}}, Right: &TreeNode{Val: 3}}, &TreeNode{Val: 1, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 5}}, Right: &TreeNode{Val: 3}}))
 	// fmt.Println(isSameTree(&TreeNode{Val: 1, Left: &TreeNode{Val: 2}, Right: nil}, &TreeNode{Val: 1, Left: nil, Right: &TreeNode{Val: 2}}))
-	fmt.Println(IsSymmetric(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 5}}, Right: &TreeNode{Val: 3}}))
-	fmt.Println(IsSymmetric(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Right: &TreeNode{Val: 3}}, Right: &TreeNode{Val: 2, Right: &TreeNode{Val: 3}}}))
+	// fmt.Println(IsSymmetric(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 5}}, Right: &TreeNode{Val: 3}}))
+	// fmt.Println(IsSymmetric(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Right: &TreeNode{Val: 3}}, Right: &TreeNode{Val: 2, Right: &TreeNode{Val: 3}}}))
+	fmt.Println(ReverseInteger(123))
+	fmt.Println(ReverseInteger(-123))
+	fmt.Println(ReverseInteger(1534236469))
+	fmt.Println(ReverseInteger(-2147483648))
+	fmt.Println(ReverseInteger(120))
 }
