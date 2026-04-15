@@ -33,11 +33,15 @@ func main() {
 	// fmt.Println(ReverseInteger(1534236469))
 	// fmt.Println(ReverseInteger(-2147483648))
 	// fmt.Println(ReverseInteger(120))
-	fmt.Println(StringToInteger("+1")) // 1
-	fmt.Println(StringToInteger("42"))
-	fmt.Println(StringToInteger("   -042"))
-	fmt.Println(StringToInteger("-42")) // -42
-	fmt.Println(StringToInteger("4193 with words"))
-	fmt.Println(StringToInteger("words and 987"))
-	fmt.Println(StringToInteger("-91283472332")) // -2147483648
+	// fmt.Println(StringToInteger("+1")) // 1
+	// fmt.Println(StringToInteger("42"))
+	// fmt.Println(StringToInteger("   -042"))
+	// fmt.Println(StringToInteger("-42")) // -42
+	// fmt.Println(StringToInteger("4193 with words"))
+	// fmt.Println(StringToInteger("words and 987"))
+	// fmt.Println(StringToInteger("-91283472332")) // -2147483648
+	fmt.Println(IntegerToRoman(3))    // III
+	fmt.Println(IntegerToRoman(58))   // LVIII
+	fmt.Println(IntegerToRoman(1994)) // MCMXCIV
+	fmt.Println(IntegerToRoman(3749)) // MMMDCCXLIX
 }
