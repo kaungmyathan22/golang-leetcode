@@ -28,9 +28,16 @@ func main() {
 	// fmt.Println(isSameTree(&TreeNode{Val: 1, Left: &TreeNode{Val: 2}, Right: nil}, &TreeNode{Val: 1, Left: nil, Right: &TreeNode{Val: 2}}))
 	// fmt.Println(IsSymmetric(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Left: &TreeNode{Val: 5}}, Right: &TreeNode{Val: 3}}))
 	// fmt.Println(IsSymmetric(&TreeNode{Val: 1, Left: &TreeNode{Val: 2, Right: &TreeNode{Val: 3}}, Right: &TreeNode{Val: 2, Right: &TreeNode{Val: 3}}}))
-	fmt.Println(ReverseInteger(123))
-	fmt.Println(ReverseInteger(-123))
-	fmt.Println(ReverseInteger(1534236469))
-	fmt.Println(ReverseInteger(-2147483648))
-	fmt.Println(ReverseInteger(120))
+	// fmt.Println(ReverseInteger(123))
+	// fmt.Println(ReverseInteger(-123))
+	// fmt.Println(ReverseInteger(1534236469))
+	// fmt.Println(ReverseInteger(-2147483648))
+	// fmt.Println(ReverseInteger(120))
+	fmt.Println(StringToInteger("+1")) // 1
+	fmt.Println(StringToInteger("42"))
+	fmt.Println(StringToInteger("   -042"))
+	fmt.Println(StringToInteger("-42")) // -42
+	fmt.Println(StringToInteger("4193 with words"))
+	fmt.Println(StringToInteger("words and 987"))
+	fmt.Println(StringToInteger("-91283472332")) // -2147483648
 }
