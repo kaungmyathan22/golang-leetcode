@@ -40,8 +40,10 @@ func main() {
 	// fmt.Println(StringToInteger("4193 with words"))
 	// fmt.Println(StringToInteger("words and 987"))
 	// fmt.Println(StringToInteger("-91283472332")) // -2147483648
-	fmt.Println(IntegerToRoman(3))    // III
-	fmt.Println(IntegerToRoman(58))   // LVIII
-	fmt.Println(IntegerToRoman(1994)) // MCMXCIV
-	fmt.Println(IntegerToRoman(3749)) // MMMDCCXLIX
+	// fmt.Println(IntegerToRoman(3))    // III
+	// fmt.Println(IntegerToRoman(58))   // LVIII
+	// fmt.Println(IntegerToRoman(1994)) // MCMXCIV
+	// fmt.Println(IntegerToRoman(3749)) // MMMDCCXLIX
+	fmt.Println(GenerateParentheses(3))
+	fmt.Println(GenerateParentheses(1))
 }

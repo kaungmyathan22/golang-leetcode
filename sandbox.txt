@@ -1,7 +1,28 @@
-
-func isSymmetric(root *TreeNode) bool {
-    if root.Left != nil || root.Right != nil {
-        return root.Left.Val === && root.Right.Val
+func maxProfit(prices []int) int {
+    if len(prices) === 0 {
+        return 0
     }
-    isSymmetric(root.Left.)
+    // find the smallet int
+    smallestInt := prices[0]
+    smallestIdx := 0
+    for i:=1; i < len(prices); i++ {
+        if(prices[i] < smallest) {
+            smallestIdx = i;
+            smallestInt = prices[i]
+        }
+    }
+    // the smallest item is in the last idx so return 0
+    if smallestIdx + 1 == len(prices) {
+        return 0
+    }
+    largestIdx := smallestIdx
+    largestInt := prices[smallestIdx]
+    // find the largest int after smallest int
+    for ii:=smallestIdx + 1; ii < len(prices); ii++ {
+        if prices[ii] > largestInt {
+            largestInt = prices[ii]
+            largestIdx = ii
+        }
+    }
+    return largestIdx
 }
