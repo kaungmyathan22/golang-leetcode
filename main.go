@@ -55,8 +55,11 @@ func main() {
 	// fmt.Println(MaxProfit([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10})) // 9
 	// fmt.Println(MaxProfit([]int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1})) // 0
 	// fmt.Println(MaxProfit([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10})) // 9
-	fmt.Println(minMirrorPairDistance([]int{12, 21, 45, 33, 54})) // 9
-	fmt.Println(minMirrorPairDistance([]int{10, 11, 12, 13}))     // 1
+	// fmt.Println(minMirrorPairDistance([]int{12, 21, 45, 33, 54})) // 9
+	// fmt.Println(minMirrorPairDistance([]int{10, 11, 12, 13}))     // 1
 	// fmt.Println(minMirrorPairDistance([]int{120, 210}))           // 90
-	fmt.Println(minMirrorPairDistance([]int{21, 120})) // 90
+	// fmt.Println(minMirrorPairDistance([]int{21, 120})) // 90
+	fmt.Println(solveQueries([]int{1, 3, 1, 4, 1, 3, 2}, []int{0, 3, 5})) // [2, -1, 3]
+	fmt.Println(solveQueries([]int{1, 2, 3, 4}, []int{0, 1, 2, 3}))       // [-1,-1,-1,-1]
+
 }
