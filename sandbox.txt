@@ -1,25 +1,2 @@
-package main
 
-func MaxProfit(prices []int) int {
-	if len(prices) == 0 {
-		return 0
-	}
-	smallestInt := prices[0]
-	smallestIdx := 0
-	for i := 1; i < len(prices); i++ {
-		if prices[i] < smallestInt && i < len(prices) -1 {
-			smallestIdx = i
-			smallestInt = prices[i]
-		}
-	}
-	if smallestIdx+1 == len(prices) {
-		return 0
-	}
-	largestInt := prices[smallestIdx]
-	for ii := smallestIdx + 1; ii < len(prices); ii++ {
-		if prices[ii] > largestInt {
-			largestInt = prices[ii]
-		}
-	}
-	return largestInt - smallestInt
-}
+// 123 -> 321

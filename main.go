@@ -46,13 +46,17 @@ func main() {
 	// fmt.Println(IntegerToRoman(3749)) // MMMDCCXLIX
 	// fmt.Println(GenerateParentheses(3))
 	// fmt.Println(GenerateParentheses(1))
-	fmt.Println(MaxProfit([]int{7, 1, 5, 3, 6, 4}))              // 5
-	fmt.Println(MaxProfit([]int{7, 6, 4, 3, 1}))                 // 0
-	fmt.Println(MaxProfit([]int{1, 2}))                          // 1
-	fmt.Println(MaxProfit([]int{2, 1, 2, 1, 0, 1, 2}))           // 1
-	fmt.Println(MaxProfit([]int{2, 4, 1}))                       // 2
-	fmt.Println(MaxProfit([]int{3, 2, 6, 5, 0, 3}))              // 4
-	fmt.Println(MaxProfit([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10})) // 9
-	fmt.Println(MaxProfit([]int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1})) // 0
-	fmt.Println(MaxProfit([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10})) // 9
+	// fmt.Println(MaxProfit([]int{7, 1, 5, 3, 6, 4}))              // 5
+	// fmt.Println(MaxProfit([]int{7, 6, 4, 3, 1}))                 // 0
+	// fmt.Println(MaxProfit([]int{1, 2}))                          // 1
+	// fmt.Println(MaxProfit([]int{2, 1, 2, 1, 0, 1, 2}))           // 1
+	// fmt.Println(MaxProfit([]int{2, 4, 1}))                       // 2
+	// fmt.Println(MaxProfit([]int{3, 2, 6, 5, 0, 3}))              // 4
+	// fmt.Println(MaxProfit([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10})) // 9
+	// fmt.Println(MaxProfit([]int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1})) // 0
+	// fmt.Println(MaxProfit([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10})) // 9
+	fmt.Println(minMirrorPairDistance([]int{12, 21, 45, 33, 54})) // 9
+	fmt.Println(minMirrorPairDistance([]int{10, 11, 12, 13}))     // 1
+	// fmt.Println(minMirrorPairDistance([]int{120, 210}))           // 90
+	fmt.Println(minMirrorPairDistance([]int{21, 120})) // 90
 }
