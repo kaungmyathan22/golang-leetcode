@@ -1,9 +1,9 @@
-import "math"
-func getMinDistance(nums []int, target int, start int) int {
-	for i:= start; i < len(nums) ; i++ {
-		if nums[i] == target {
-			return math.Abs(i - start)
-		}
-	}
-	return -1
+
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+
+func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+
 }
