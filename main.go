@@ -64,8 +64,10 @@ func main() {
 	// fmt.Println(findFinalValue([]int{5, 3, 6, 1, 12}, 3))     // 24
 	// fmt.Println(findFinalValue([]int{2, 7, 9}, 4))            // 4
 	// fmt.Println(findFinalValue([]int{8, 19, 4, 2, 15, 3}, 2)) // 16
-	fmt.Println(mirrorDistance(123)) // 123
-	fmt.Println(mirrorDistance(25))  // 123
-	fmt.Println(mirrorDistance(10))  // 123
-	fmt.Println(mirrorDistance(7))   // 123
+	// fmt.Println(mirrorDistance(123)) // 123
+	// fmt.Println(mirrorDistance(25))  // 123
+	// fmt.Println(mirrorDistance(10))  // 123
+	// fmt.Println(mirrorDistance(7))   // 123
+	fmt.Println(getMinDistance([]int{1, 2, 3, 4, 5}, 3, 2)) // 1
+	fmt.Println(getMinDistance([]int{1, 2, 3, 4, 5}, 5, 3)) // 1
 }
