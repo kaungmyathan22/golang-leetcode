@@ -61,7 +61,11 @@ func main() {
 	// fmt.Println(minMirrorPairDistance([]int{21, 120})) // 90
 	// fmt.Println(solveQueries([]int{1, 3, 1, 4, 1, 3, 2}, []int{0, 3, 5})) // [2, -1, 3]
 	// fmt.Println(solveQueries([]int{1, 2, 3, 4}, []int{0, 1, 2, 3}))       // [-1,-1,-1,-1]
-	fmt.Println(findFinalValue([]int{5, 3, 6, 1, 12}, 3))     // 24
-	fmt.Println(findFinalValue([]int{2, 7, 9}, 4))            // 4
-	fmt.Println(findFinalValue([]int{8, 19, 4, 2, 15, 3}, 2)) // 16
+	// fmt.Println(findFinalValue([]int{5, 3, 6, 1, 12}, 3))     // 24
+	// fmt.Println(findFinalValue([]int{2, 7, 9}, 4))            // 4
+	// fmt.Println(findFinalValue([]int{8, 19, 4, 2, 15, 3}, 2)) // 16
+	fmt.Println(mirrorDistance(123)) // 123
+	fmt.Println(mirrorDistance(25))  // 123
+	fmt.Println(mirrorDistance(10))  // 123
+	fmt.Println(mirrorDistance(7))   // 123
 }
