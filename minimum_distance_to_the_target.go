@@ -15,10 +15,3 @@ func getMinDistance(nums []int, target int, start int) int {
 	}
 	return minDist
 }
-
-func abs(x int) int {
-	if x < 0 {
-		return -x
-	}
-	return x
-}
