@@ -73,9 +73,11 @@ func main() {
 	// fmt.Println(addTwoNumbers(&ListNode{Val: 2, Next: &ListNode{Val: 4, Next: &ListNode{Val: 3}}}, &ListNode{Val: 5, Next: &ListNode{Val: 6, Next: &ListNode{Val: 4}}})) // 7 -> 0 -> 8
 	// fmt.Println(addTwoNumbers(&ListNode{Val: 0}, &ListNode{Val: 0}))
 	// fmt.Println(addTwoNumbers(&ListNode{Val: 9, Next: &ListNode{Val: 9, Next: &ListNode{Val: 9, Next: &ListNode{Val: 9, Next: &ListNode{Val: 9, Next: &ListNode{Val: 9, Next: &ListNode{Val: 9}}}}}}}, &ListNode{Val: 9, Next: &ListNode{Val: 9, Next: &ListNode{Val: 9, Next: &ListNode{Val: 9}}}})) // 8 -> 9 -> 9 -> 9 -> 0 -> 0 -> 0 -> 1
-	fmt.Println(ClosestTarget([]string{"apple", "orange", "banana", "pear", "pineapple"}, "pear", 2)) // 2
-	fmt.Println(ClosestTarget([]string{"hello", "i", "am", "leetcode", "hello"}, "hello", 1))         // 2
-	fmt.Println(ClosestTarget([]string{"a", "b", "leetcode"}, "leetcode", 0))                         // 2
-	fmt.Println(ClosestTarget([]string{"i", "eat", "leetcode"}, "ate", 0))                            // 2
-
+	// fmt.Println(ClosestTarget([]string{"apple", "orange", "banana", "pear", "pineapple"}, "pear", 2)) // 2
+	// fmt.Println(ClosestTarget([]string{"hello", "i", "am", "leetcode", "hello"}, "hello", 1))         // 2
+	// fmt.Println(ClosestTarget([]string{"a", "b", "leetcode"}, "leetcode", 0))                         // 2
+	// fmt.Println(ClosestTarget([]string{"i", "eat", "leetcode"}, "ate", 0))                            // 2
+	fmt.Println(MinimumDistanceBetweenThreeEqualElements([]int{1, 2, 1, 1, 3}))
+	// fmt.Println(MinimumDistanceBetweenThreeEqualElements([]int{1, 1, 2, 3, 2, 1, 2}))
+	// fmt.Println(MinimumDistanceBetweenThreeEqualElements([]int{1}))
 }
