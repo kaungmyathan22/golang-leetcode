@@ -81,7 +81,9 @@ func main() {
 	// fmt.Println(MinimumDistanceBetweenThreeEqualElements([]int{1, 1, 2, 3, 2, 1, 2}))
 	// fmt.Println(MinimumDistanceBetweenThreeEqualElements([]int{1}))
 	// fmt.Println(MinimumHammingDistance([]int{1, 2, 3, 4}, []int{2, 1, 4, 5}, [][]int{{0, 1}, {2, 3}}))
-	fmt.Println(MinOperations("0100"))
-	fmt.Println(MinOperations("10"))
-	fmt.Println(MinOperations("1111"))
+	// fmt.Println(MinOperations("0100"))
+	// fmt.Println(MinOperations("10"))
+	// fmt.Println(MinOperations("1111"))
+	fmt.Println(SpecialPositionsInABinaryMatrix([][]int{{1, 0, 0}, {0, 0, 1}, {1, 0, 0}}))
+	fmt.Println(SpecialPositionsInABinaryMatrix([][]int{{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}))
 }
