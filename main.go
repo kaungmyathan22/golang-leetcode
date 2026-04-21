@@ -77,7 +77,8 @@ func main() {
 	// fmt.Println(ClosestTarget([]string{"hello", "i", "am", "leetcode", "hello"}, "hello", 1))         // 2
 	// fmt.Println(ClosestTarget([]string{"a", "b", "leetcode"}, "leetcode", 0))                         // 2
 	// fmt.Println(ClosestTarget([]string{"i", "eat", "leetcode"}, "ate", 0))                            // 2
-	fmt.Println(MinimumDistanceBetweenThreeEqualElements([]int{1, 2, 1, 1, 3}))
+	// fmt.Println(MinimumDistanceBetweenThreeEqualElements([]int{1, 2, 1, 1, 3}))
 	// fmt.Println(MinimumDistanceBetweenThreeEqualElements([]int{1, 1, 2, 3, 2, 1, 2}))
 	// fmt.Println(MinimumDistanceBetweenThreeEqualElements([]int{1}))
+	fmt.Println(MinimumHammingDistance([]int{1, 2, 3, 4}, []int{2, 1, 4, 5}, [][]int{{0, 1}, {2, 3}}))
 }
