@@ -1,9 +1,8 @@
+package main
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
-
+func twoEditWords(queries []string, dictionary []string) []string {
+	var arrayName [arraySize]string
+	for q := range queries {
+		fmt.Println(q)
+	}
 }
