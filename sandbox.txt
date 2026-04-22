@@ -1,8 +1,23 @@
-package main
 
-func twoEditWords(queries []string, dictionary []string) []string {
-	var arrayName [arraySize]string
-	for q := range queries {
-		fmt.Println(q)
+func canBeEqual(s1 string, s2 string) bool {
+	if len(s1) != len(s2) {
+		return false
 	}
+	j := len(s1)
+	for i := 0; i < len(s1); i++ {
+		if Abs(i-j) == 2 {
+			s1 = swapCharacters(i,j)
+			if s1 == s2 {
+				return true
+			}
+		}
+		j--;
+	}
+	return true
+}
+
+func swapCharacters(s string, i, j int) string {
+	runes := []rune(s)
+	runes[i], runes[j] = runes[j], runes[i]
+	return string(runes)
 }

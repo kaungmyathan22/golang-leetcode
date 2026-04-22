@@ -88,8 +88,12 @@ func main() {
 	// fmt.Println(SpecialPositionsInABinaryMatrix([][]int{{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}))
 	// fmt.Println(twoEditWords([]string{"word", "note", "ants", "wood"}, []string{"wood", "joke", "moat"}))
 	// fmt.Println(twoEditWords([]string{"yes"}, []string{"not"}))
-	fmt.Println(robotReturnToOrigin("UD"))
-	fmt.Println(robotReturnToOrigin("LL"))
-	fmt.Println(robotReturnToOrigin("RRDD"))
-	fmt.Println(robotReturnToOrigin("LDRRLRUULR"))
+	// fmt.Println(robotReturnToOrigin("UD"))
+	// fmt.Println(robotReturnToOrigin("LL"))
+	// fmt.Println(robotReturnToOrigin("RRDD"))
+	// fmt.Println(robotReturnToOrigin("LDRRLRUULR"))
+	fmt.Println(canBeEqual("abc", "bca"))
+	fmt.Println(canBeEqual("abcd", "cdab"))
+	fmt.Println(canBeEqual("abcd", "dacb"))
+
 }
