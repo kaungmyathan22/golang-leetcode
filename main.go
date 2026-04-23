@@ -92,8 +92,9 @@ func main() {
 	// fmt.Println(robotReturnToOrigin("LL"))
 	// fmt.Println(robotReturnToOrigin("RRDD"))
 	// fmt.Println(robotReturnToOrigin("LDRRLRUULR"))
-	fmt.Println(canBeEqual("abc", "bca"))
-	fmt.Println(canBeEqual("abcd", "cdab"))
-	fmt.Println(canBeEqual("abcd", "dacb"))
-
+	// fmt.Println(canBeEqual("abc", "bca"))
+	// fmt.Println(canBeEqual("abcd", "cdab"))
+	// fmt.Println(canBeEqual("abcd", "dacb"))
+	fmt.Println(distance([]int{1, 3, 1, 1, 2}))
+	// fmt.Println(distance([]int{0, 5, 3}))
 }
