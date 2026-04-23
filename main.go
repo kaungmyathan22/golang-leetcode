@@ -97,7 +97,9 @@ func main() {
 	// fmt.Println(canBeEqual("abcd", "dacb"))
 	// fmt.Println(distance([]int{1, 3, 1, 1, 2}))
 	// fmt.Println(distance([]int{0, 5, 3}))
-	fmt.Println(findRotation([][]int{{0, 1}, {1, 0}}, [][]int{{1, 0}, {0, 1}}))
+	// fmt.Println(findRotation([][]int{{0, 1}, {1, 0}}, [][]int{{1, 0}, {0, 1}}))
 	// fmt.Println(findRotation([][]int{{0, 1}, {1, 1}}, [][]int{{1, 0}, {0, 1}}))
 	// fmt.Println(findRotation([][]int{{0, 0, 0}, {0, 1, 0}, {1, 1, 1}}, [][]int{{1, 1, 1}, {0, 1, 0}, {0, 0, 0}}))
+	fmt.Println(reverseSquareSubmatrix([][]int{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}}, 1, 0, 3))
+	fmt.Println(reverseSquareSubmatrix([][]int{{3, 4, 2, 3}, {2, 3, 4, 2}}, 0, 2, 2))
 }
