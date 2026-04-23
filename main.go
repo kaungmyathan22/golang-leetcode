@@ -95,6 +95,9 @@ func main() {
 	// fmt.Println(canBeEqual("abc", "bca"))
 	// fmt.Println(canBeEqual("abcd", "cdab"))
 	// fmt.Println(canBeEqual("abcd", "dacb"))
-	fmt.Println(distance([]int{1, 3, 1, 1, 2}))
+	// fmt.Println(distance([]int{1, 3, 1, 1, 2}))
 	// fmt.Println(distance([]int{0, 5, 3}))
+	fmt.Println(findRotation([][]int{{0, 1}, {1, 0}}, [][]int{{1, 0}, {0, 1}}))
+	// fmt.Println(findRotation([][]int{{0, 1}, {1, 1}}, [][]int{{1, 0}, {0, 1}}))
+	// fmt.Println(findRotation([][]int{{0, 0, 0}, {0, 1, 0}, {1, 1, 1}}, [][]int{{1, 1, 1}, {0, 1, 0}, {0, 0, 0}}))
 }
