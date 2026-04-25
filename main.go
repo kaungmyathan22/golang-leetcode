@@ -107,6 +107,8 @@ func main() {
 	// fmt.Println(furthestDistanceFromOrigin("_______"))
 	// fmt.Println(constructTransformedArray([]int{3, -2, 1, 1}))
 	// fmt.Println(constructTransformedArray([]int{-1, 4, -1}))
-	fmt.Println(isTrionic([]int{1, 3, 5, 4, 2, 6}))
-	fmt.Println(isTrionic([]int{2, 1, 3}))
+	// fmt.Println(isTrionic([]int{1, 3, 5, 4, 2, 6}))
+	// fmt.Println(isTrionic([]int{2, 1, 3}))
+	// fmt.Println(maxDistance(3, [][]int{{1, 2}, {2, 1}, {3, 3}}, 1))
+	fmt.Println(maxDistance(2, [][]int{{0, 2}, {2, 0}, {2, 2}, {0, 0}}, 4))
 }
