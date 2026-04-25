@@ -110,5 +110,8 @@ func main() {
 	// fmt.Println(isTrionic([]int{1, 3, 5, 4, 2, 6}))
 	// fmt.Println(isTrionic([]int{2, 1, 3}))
 	// fmt.Println(maxDistance(3, [][]int{{1, 2}, {2, 1}, {3, 3}}, 1))
-	fmt.Println(maxDistance(2, [][]int{{0, 2}, {2, 0}, {2, 2}, {0, 0}}, 4))
+	// fmt.Println(maxDistance(2, [][]int{{0, 2}, {2, 0}, {2, 2}, {0, 0}}, 4))
+	// fmt.Println(minimumPairRemoval([]int{1, 2, 3, 4, 5}))
+	fmt.Println(minimumPairRemoval([]int{5, 2, 3, 1}))
+	fmt.Println(minimumPairRemoval([]int{1, 2, 2}))
 }
