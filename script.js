@@ -10,3 +10,7 @@ function isPowerOfThree(n)  {
 	}
 	return false;
 }
+
+console.log(isPowerOfThree(27));
+console.log(isPowerOfThree(0));
+console.log(isPowerOfThree(-1));

@@ -116,5 +116,9 @@ func main() {
 	// fmt.Println(minimumPairRemoval([]int{1, 2, 2}))
 	// fmt.Println(minBitwiseArray([]int{2, 3, 5, 7}))
 	// fmt.Println(minBitwiseArray([]int{11, 13, 31}))
-	fmt.Println(Constructor([]int{1, 2, 3, 4, 5}))
+	// fmt.Println(Constructor([]int{1, 2, 3, 4, 5}))
+	// fmt.Println(isPowerOfThree(27))
+	// fmt.Println(isPowerOfThree(0))
+	// fmt.Println(isPowerOfThree(-1))
+	fmt.Println(isPowerOfThree(3))
 }
