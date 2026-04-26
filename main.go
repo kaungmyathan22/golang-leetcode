@@ -120,5 +120,7 @@ func main() {
 	// fmt.Println(isPowerOfThree(27))
 	// fmt.Println(isPowerOfThree(0))
 	// fmt.Println(isPowerOfThree(-1))
-	fmt.Println(isPowerOfThree(9))
+	// fmt.Println(isPowerOfThree(9))
+	fmt.Println(countBits(2))
+	fmt.Println(countBits(5))
 }
