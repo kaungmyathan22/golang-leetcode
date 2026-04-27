@@ -126,6 +126,8 @@ func main() {
 	// fmt.Println(sortedArrayToBST([]int{-10, -3, 0, 5, 9}))
 	// debug(sortedArrayToBST([]int{-10, -3, 0, 5, 9}))
 	// debug(sortedArrayToBST([]int{1, 3}))
-	fmt.Println(minDepth(sortedArrayToBST([]int{-10, -3, 0, 5, 9})))
-	fmt.Println(minDepth(sortedArrayToBST([]int{1, 3})))
+	// fmt.Println(minDepth(sortedArrayToBST([]int{-10, -3, 0, 5, 9})))
+	// fmt.Println(minDepth(sortedArrayToBST([]int{1, 3})))
+	fmt.Println(hasCycle(&ListNode{Val: 3, Next: &ListNode{Val: 2, Next: &ListNode{Val: 0, Next: &ListNode{Val: -4}}}}))
+	fmt.Println(hasCycle(&ListNode{Val: 1, Next: &ListNode{Val: 2}}))
 }
