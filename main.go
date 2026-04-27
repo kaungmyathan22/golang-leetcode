@@ -123,7 +123,9 @@ func main() {
 	// fmt.Println(isPowerOfThree(9))
 	// fmt.Println(countBits(2))
 	// fmt.Println(countBits(5))
-	fmt.Println(sortedArrayToBST([]int{-10, -3, 0, 5, 9}))
-	debug(sortedArrayToBST([]int{-10, -3, 0, 5, 9}))
-	debug(sortedArrayToBST([]int{1, 3}))
+	// fmt.Println(sortedArrayToBST([]int{-10, -3, 0, 5, 9}))
+	// debug(sortedArrayToBST([]int{-10, -3, 0, 5, 9}))
+	// debug(sortedArrayToBST([]int{1, 3}))
+	fmt.Println(minDepth(sortedArrayToBST([]int{-10, -3, 0, 5, 9})))
+	fmt.Println(minDepth(sortedArrayToBST([]int{1, 3})))
 }
