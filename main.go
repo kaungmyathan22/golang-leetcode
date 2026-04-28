@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// nums1 := []int{1, 1, 2}
 	// (removeDuplicates(nums1))
@@ -128,6 +126,9 @@ func main() {
 	// debug(sortedArrayToBST([]int{1, 3}))
 	// fmt.Println(minDepth(sortedArrayToBST([]int{-10, -3, 0, 5, 9})))
 	// fmt.Println(minDepth(sortedArrayToBST([]int{1, 3})))
-	fmt.Println(hasCycle(&ListNode{Val: 3, Next: &ListNode{Val: 2, Next: &ListNode{Val: 0, Next: &ListNode{Val: -4}}}}))
-	fmt.Println(hasCycle(&ListNode{Val: 1, Next: &ListNode{Val: 2}}))
+	// fmt.Println(hasCycle(&ListNode{Val: 3, Next: &ListNode{Val: 2, Next: &ListNode{Val: 0, Next: &ListNode{Val: -4}}}}))
+	// fmt.Println(hasCycle(&ListNode{Val: 1, Next: &ListNode{Val: 2}}))
+	// fmt.Println(minOperations([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}, 3))
+	// fmt.Println(minOperations([][]int{{2, 4}, {6, 8}}, 2))
+	// fmt.Println(minOperations([][]int{{1, 5}, {2, 3}}, 1))
 }
