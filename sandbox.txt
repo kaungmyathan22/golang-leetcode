@@ -1,12 +1,12 @@
-function isPowerOfThree(n)  {
-	for (i = 1; i < n ; i++) {
-		result = i*i*i;
-		if( result === n) {
-			return true
-		}
-		if (result > n) {
-			return false
-		}
-	}
-	return false;
+func addStrings(num1 string, num2 string) string {
+    n1, err := strconv.Atoi(num1)
+    if err != nil {
+        n1=0
+    }
+    n2, err := strconv.Atoi(num2)
+    if err != nil {
+        n2=0
+    }
+	result := strconv.Itoa(n1+n2)
+	return result
 }

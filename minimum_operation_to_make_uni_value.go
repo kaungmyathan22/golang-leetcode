@@ -1,9 +1,11 @@
 package main
 
-import "sort"
+import (
+	"fmt"
+	"sort"
+)
 
 func minOperations(grid [][]int, x int) int {
-	// Flatten the grid into a 1D slice
 	m := len(grid)
 	n := len(grid[0])
 	nums := make([]int, 0, m*n)
@@ -11,7 +13,6 @@ func minOperations(grid [][]int, x int) int {
 
 	for i := 0; i < m; i++ {
 		for j := 0; j < n; j++ {
-			// Check feasibility: (all elements must be congruent mod x)
 			if (grid[i][j]-base)%x != 0 {
 				return -1
 			}
@@ -19,12 +20,10 @@ func minOperations(grid [][]int, x int) int {
 		}
 	}
 
-	// Sort to get the median efficiently
-	// Import sort above if not already: import "sort"
 	sort.Ints(nums)
 	median := nums[len(nums)/2]
-
-	// Compute total operations to convert all to median
+	fmt.Println(nums)
+	fmt.Println(median)
 	ops := 0
 	for _, num := range nums {
 		ops += abs(num-median) / x
