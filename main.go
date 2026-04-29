@@ -135,6 +135,8 @@ func main() {
 	// fmt.Println(minOperations([][]int{{1, 5}, {2, 3}}, 1))
 	// fmt.Println(missingNumber([]int{3, 0, 1}))
 	// fmt.Println(missingNumber([]int{0, 1}))
-	fmt.Println(addStrings("123", "456"))
-	fmt.Println(addStrings("123", "11"))
+	// fmt.Println(addStrings("123", "456"))
+	// fmt.Println(addStrings("123", "11"))
+	fmt.Println(summaryRanges([]int{0, 1, 2, 4, 5, 7}))
+	fmt.Println(summaryRanges([]int{0, 2, 3, 4, 6, 8, 9}))
 }
