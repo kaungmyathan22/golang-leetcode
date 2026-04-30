@@ -1,0 +1,52 @@
+package main
+
+func maxPathScore(grid [][]int, k int) int {
+	m := len(grid)    // number of rows
+	n := len(grid[0]) // number of cols
+
+	// create dp table filled with -1 (means "impossible")
+	dp := make([][][]int, m)
+	for i := 0; i < m; i++ {
+		dp[i] = make([][]int, n)
+		for j := 0; j < n; j++ {
+			dp[i][j] = make([]int, k+1)
+			for c := 0; c <= k; c++ {
+				dp[i][j][c] = -1 // impossible by default
+			}
+		}
+	}
+	dp[0][0][0] = 0
+	for i := 0; i < m; i++ {
+		for j := 0; j < n; j++ {
+			cellScore := grid[i][j]
+			cellCost := 0
+			if grid[i][j] > 0 {
+				cellCost = 1
+			}
+
+			for c := cellCost; c <= k; c++ {
+				// check above (i-1, j)
+				if i > 0 && dp[i-1][j][c-cellCost] != -1 {
+					val := dp[i-1][j][c-cellCost] + cellScore
+					if val > dp[i][j][c] {
+						dp[i][j][c] = val
+					}
+				}
+				// check left (i, j-1)
+				if j > 0 && dp[i][j-1][c-cellCost] != -1 {
+					val := dp[i][j-1][c-cellCost] + cellScore
+					if val > dp[i][j][c] {
+						dp[i][j][c] = val
+					}
+				}
+			}
+		}
+	}
+	result := -1
+	for c := 0; c <= k; c++ {
+		if dp[m-1][n-1][c] > result {
+			result = dp[m-1][n-1][c]
+		}
+	}
+	return result
+}
