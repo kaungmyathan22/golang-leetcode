@@ -1,22 +1,10 @@
-/**
-try every possible substring length from 1 to len(s)/2:
-    if length divides len(s) evenly:
-        repeat that substring len(s)/length times
-        does it equal s?
-        if yes → return true
-
-return false
-*/
-
-func repeatedSubstringPattern(s string) bool {
-    substrLen := len(s)/2
-    for i:=1 ; i < substrLen ; i++ {
-        if len(s) % i == 0  {
-            comp := strings.Repeat(s[:i], len(s)/i)
-            if comp == s {
-                return true
-            }
-        }
+func findComplement(num int) int {
+    // convert num to binary string
+    binaryStr := (strconv.FormatInt(n, 2))
+    // loop through it and reverse it
+    for k,v := range binaryStr {
+        fmt.Println(k,v)
     }
-    return false
+    // convert reverted str to num
+    return 0
 }
