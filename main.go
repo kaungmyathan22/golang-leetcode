@@ -147,6 +147,9 @@ func main() {
 	// fmt.Println(repeatedSubstringPattern("abab"))
 	//fmt.Println(findComplement(5))
 	//fmt.Println(maxRotateFunction([]int{4, 3, 2, 6}))
-	fmt.Println(findPoisonedDuration([]int{1, 4}, 2))
-	fmt.Println(findPoisonedDuration([]int{1, 2}, 2))
+	//fmt.Println(findPoisonedDuration([]int{1, 4}, 2))
+	//fmt.Println(findPoisonedDuration([]int{1, 2}, 2))
+	fmt.Println(fib(2))
+	fmt.Println(fib(3))
+	fmt.Println(fib(4))
 }
