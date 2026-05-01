@@ -146,5 +146,7 @@ func main() {
 	//fmt.Println(maxPathScore([][]int{{0, 1}, {2, 0}}, 1))
 	// fmt.Println(repeatedSubstringPattern("abab"))
 	//fmt.Println(findComplement(5))
-	fmt.Println(maxRotateFunction([]int{4, 3, 2, 6}))
+	//fmt.Println(maxRotateFunction([]int{4, 3, 2, 6}))
+	fmt.Println(findPoisonedDuration([]int{1, 4}, 2))
+	fmt.Println(findPoisonedDuration([]int{1, 2}, 2))
 }
