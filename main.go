@@ -145,5 +145,6 @@ func main() {
 	// fmt.Print(maxPathScore([][]int{{0, 3, 1, 0}, {3, 4, 2, 5}, {5, 2, 0, 3}, {4, 3, 0, 2}}, 2))
 	//fmt.Println(maxPathScore([][]int{{0, 1}, {2, 0}}, 1))
 	// fmt.Println(repeatedSubstringPattern("abab"))
-	fmt.Println(findComplement(5))
+	//fmt.Println(findComplement(5))
+	fmt.Println(maxRotateFunction([]int{4, 3, 2, 6}))
 }
