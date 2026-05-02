@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// nums1 := []int{1, 1, 2}
 	// (removeDuplicates(nums1))
@@ -150,4 +152,5 @@ func main() {
 	//fmt.Println(fib(2))
 	//fmt.Println(fib(3))
 	//fmt.Println(fib(4))
+	fmt.Println(findLengthOfLCIS([]int{1, 3, 5, 4, 7}))
 }
