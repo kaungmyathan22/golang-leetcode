@@ -152,5 +152,6 @@ func main() {
 	//fmt.Println(fib(2))
 	//fmt.Println(fib(3))
 	//fmt.Println(fib(4))
-	fmt.Println(findLengthOfLCIS([]int{1, 3, 5, 4, 7}))
+	// fmt.Println(findLengthOfLCIS([]int{1, 3, 5, 4, 7}))
+	fmt.Println(rotateDigit(10))
 }
