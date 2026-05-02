@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// nums1 := []int{1, 1, 2}
 	// (removeDuplicates(nums1))
@@ -149,7 +147,7 @@ func main() {
 	//fmt.Println(maxRotateFunction([]int{4, 3, 2, 6}))
 	//fmt.Println(findPoisonedDuration([]int{1, 4}, 2))
 	//fmt.Println(findPoisonedDuration([]int{1, 2}, 2))
-	fmt.Println(fib(2))
-	fmt.Println(fib(3))
-	fmt.Println(fib(4))
+	//fmt.Println(fib(2))
+	//fmt.Println(fib(3))
+	//fmt.Println(fib(4))
 }
